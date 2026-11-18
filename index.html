@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Виет теоремасына кері теорема</title>
+<style>
+:root{--bg:#f6f7fb;--card:#fff;--tx:#1d2433;--mu:#566;--ac:#1f5fbf;--ru:#5a4a8a;--bd:#d9deea;--hl:#e8f0fe;--ok:#e6f6ea;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#12151c;--card:#1b2030;--tx:#e8ebf3;--mu:#a3adc2;--ac:#7fb0ff;--ru:#b9a8f0;--bd:#2c3348;--hl:#1f2a44;--ok:#1b3326}}
+:root[data-theme="dark"]{--bg:#12151c;--card:#1b2030;--tx:#e8ebf3;--mu:#a3adc2;--ac:#7fb0ff;--ru:#b9a8f0;--bd:#2c3348;--hl:#1f2a44;--ok:#1b3326}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--tx);font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:860px;margin:0 auto;padding:20px 16px 48px}
+header{text-align:center;margin-bottom:20px}
+h1{font-size:1.6rem;margin:.2em 0}
+h2{font-size:1.25rem;color:var(--ac);margin:0 0 8px}
+.meta{color:var(--mu);font-size:.95rem}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:16px 18px;margin:16px 0}
+.ru{font-style:italic;color:var(--ru);margin:.1em 0 .8em}
+.box{background:var(--hl);border-left:4px solid var(--ac);padding:10px 14px;border-radius:6px;margin:10px 0}
+.ans{background:var(--ok);padding:8px 14px;border-radius:6px;margin-top:10px;font-weight:600}
+.m{font-family:Georgia,"Times New Roman",serif;font-size:1.08em;white-space:nowrap}
+p{margin:.35em 0}
+</style>
+</head>
+<body>
+<main>
+<header>
+<div class="meta">Спецкурс · 8 «Ә» сынып · Алгебра · 8.2.2.4<br>Мұғалім: Күнгөзин Дәулет Бағдашұлы</div>
+<p class="ru meta">Спецкурс · 8 «Ә» класс · Алгебра · 8.2.2.4<br>Учитель математики: Кунгозин Даулет Багдашұлы</p>
+<h1>Виет теоремасына кері теорема. Виет теоремасын қолдану</h1>
+<p class="ru">Теорема, обратная теореме Виета. Применение теоремы Виета</p>
+</header>
+
+<section class="card">
+<h2>1. Теория</h2>
+<p>Келтірілген квадрат теңдеу: <span class="m">x² + px + q = 0</span> (мұндағы <span class="m">a = 1</span>).</p>
+<p class="ru">Приведённое квадратное уравнение: x² + px + q = 0 (здесь a = 1).</p>
+<div class="box">
+<p><b>Виет теоремасы.</b> Егер <span class="m">x₁</span> және <span class="m">x₂</span> — теңдеудің түбірлері болса, онда <span class="m">x₁ + x₂ = −p</span>, <span class="m">x₁ · x₂ = q</span>.</p>
+<p class="ru">Теорема Виета. Если x₁ и x₂ — корни уравнения, то x₁ + x₂ = −p, x₁ · x₂ = q.</p>
+<p><b>Кері теорема.</b> Егер <span class="m">x₁ + x₂ = −p</span> және <span class="m">x₁ · x₂ = q</span> болса, онда <span class="m">x₁</span> және <span class="m">x₂</span> — <span class="m">x² + px + q = 0</span> теңдеуінің түбірлері.</p>
+<p class="ru">Обратная теорема. Если x₁ + x₂ = −p и x₁ · x₂ = q, то x₁ и x₂ — корни уравнения x² + px + q = 0.</p>
+</div>
+<div class="box">
+<p><b>Жалпы түрі:</b> <span class="m">ax² + bx + c = 0</span> үшін <span class="m">x₁ + x₂ = −b/a</span>, <span class="m">x₁ · x₂ = c/a</span>.</p>
+<p class="ru">Общий вид: для ax² + bx + c = 0 имеем x₁ + x₂ = −b/a, x₁ · x₂ = c/a.</p>
+</div>
+<p><b>Есте сақта:</b> қосындының алдында <b>минус</b> таңбасы бар (<span class="m">−p</span>); көбейтінді таңбасы өзгермейді (<span class="m">q</span>).</p>
+<p class="ru">Запомни: у суммы корней знак меняется на противоположный (−p), у произведения знак тот же (q).</p>
+<p><b>Алгоритм:</b> 1) <span class="m">p</span> мен <span class="m">q</span>-ді анықта; 2) қосынды <span class="m">−p</span> мен көбейтіндіні <span class="m">q</span> жаз; 3) осындай екі санды теріп тап; 4) тексер.</p>
+<p class="ru">Алгоритм: 1) определи p и q; 2) запиши сумму −p и произведение q; 3) подбери два таких числа; 4) сделай проверку.</p>
+</section>
+
+<section class="card">
+<h2>Есеп 1. x² − 5x + 6 = 0</h2>
+<p><span class="m">p = −5, q = 6</span>. Қосынды: <span class="m">x₁ + x₂ = 5</span>; көбейтінді: <span class="m">x₁ · x₂ = 6</span>.</p>
+<p>Көбейтіндісі 6 сандар: 1·6, 2·3. Қосындысы 5 болатыны — <span class="m">2 және 3</span>.</p>
+<p class="ru">p = −5, q = 6. Сумма 5, произведение 6. Пары с произведением 6: 1·6, 2·3. Сумма 5 у пары 2 и 3.</p>
+<p>Тексеру: <span class="m">2² − 5·2 + 6 = 4 − 10 + 6 = 0</span> ✓; <span class="m">3² − 15 + 6 = 0</span> ✓.</p>
+<div class="ans">Жауабы / Ответ: 2; 3</div>
+</section>
+
+<section class="card">
+<h2>Есеп 2. x² + 7x + 10 = 0</h2>
+<p><span class="m">p = 7, q = 10</span>. Қосынды: <span class="m">−7</span>; көбейтінді: <span class="m">10</span>.</p>
+<p>Көбейтінді оң, қосынды теріс ⇒ екі сан да <b>теріс</b>. 10 = 2·5, қосындысы −7 ⇒ <span class="m">−2 және −5</span>.</p>
+<p class="ru">p = 7, q = 10. Сумма −7, произведение 10. Произведение положительное, сумма отрицательная — оба числа отрицательные. Подходит −2 и −5.</p>
+<p>Тексеру: <span class="m">(−2)² + 7(−2) + 10 = 4 − 14 + 10 = 0</span> ✓; <span class="m">25 − 35 + 10 = 0</span> ✓.</p>
+<div class="ans">Жауабы / Ответ: −2; −5</div>
+</section>
+
+<section class="card">
+<h2>Есеп 3. x² − 2x − 15 = 0</h2>
+<p><span class="m">p = −2, q = −15</span>. Қосынды: <span class="m">2</span>; көбейтінді: <span class="m">−15</span>.</p>
+<p>Көбейтінді теріс ⇒ сандардың таңбалары <b>әртүрлі</b>. 15 = 3·5; қосындысы 2 болу үшін үлкені оң: <span class="m">5 және −3</span>.</p>
+<p class="ru">p = −2, q = −15. Сумма 2, произведение −15. Произведение отрицательное — числа разных знаков. Сумма 2 получается у 5 и −3.</p>
+<p>Тексеру: <span class="m">25 − 10 − 15 = 0</span> ✓; <span class="m">9 + 6 − 15 = 0</span> ✓.</p>
+<div class="ans">Жауабы / Ответ: 5; −3</div>
+</section>
+
+<section class="card">
+<h2>Есеп 4. x² + 3x − 10 = 0</h2>
+<p><span class="m">p = 3, q = −10</span>. Қосынды: <span class="m">−3</span>; көбейтінді: <span class="m">−10</span>.</p>
+<p>Таңбалары әртүрлі; 10 = 2·5; қосынды теріс ⇒ модулі үлкені теріс: <span class="m">−5 және 2</span>.</p>
+<p class="ru">p = 3, q = −10. Сумма −3, произведение −10. Знаки разные; сумма отрицательна, значит, отрицательно число с большим модулем: −5 и 2.</p>
+<p>Тексеру: <span class="m">25 − 15 − 10 = 0</span> ✓; <span class="m">4 + 6 − 10 = 0</span> ✓.</p>
+<div class="ans">Жауабы / Ответ: −5; 2</div>
+</section>
+
+<section class="card">
+<h2>Есеп 5. x² − 6x + 4 = 0 теңдеуін шешпей-ақ, x₁² + x₂² мәнін тап</h2>
+<p class="ru">Не решая уравнение x² − 6x + 4 = 0, найди x₁² + x₂².</p>
+<p>Виет бойынша: <span class="m">x₁ + x₂ = 6</span>, <span class="m">x₁ · x₂ = 4</span>.</p>
+<p>Формула: <span class="m">(x₁ + x₂)² = x₁² + 2x₁x₂ + x₂²</span> ⇒ <span class="m">x₁² + x₂² = (x₁ + x₂)² − 2x₁x₂</span>.</p>
+<p>Қою: <span class="m">6² − 2·4 = 36 − 8 = 28</span>.</p>
+<p class="ru">По Виету: сумма 6, произведение 4. Из квадрата суммы: x₁² + x₂² = (x₁ + x₂)² − 2x₁x₂ = 36 − 8 = 28. Корни находить не нужно.</p>
+<div class="ans">Жауабы / Ответ: 28</div>
+</section>
+
+<section class="card">
+<h2>Есеп 6. x² + x − 12 = 0</h2>
+<p>Мұнда <span class="m">p = 1, q = −12</span> (<span class="m">x</span> алдындағы коэффициент 1). Қосынды: <span class="m">−1</span>; көбейтінді: <span class="m">−12</span>.</p>
+<p>12 = 3·4, 2·6, 1·12. Таңбалары әртүрлі, айырмасының модулі 1: <span class="m">3 және 4</span>; қосынды −1 болу үшін үлкені теріс: <span class="m">−4 және 3</span>.</p>
+<p class="ru">p = 1, q = −12. Сумма −1, произведение −12. Знаки разные, модули отличаются на 1 (3 и 4). Сумма −1 — значит, большее по модулю число отрицательно: −4 и 3.</p>
+<p>Тексеру: <span class="m">16 − 4 − 12 = 0</span> ✓; <span class="m">9 + 3 − 12 = 0</span> ✓.</p>
+<div class="ans">Жауабы / Ответ: −4; 3</div>
+</section>
+
+<section class="card">
+<h2>Есеп 7. 2x² − 7x + 3 = 0 (a ≠ 1)</h2>
+<p><span class="m">a = 2, b = −7, c = 3</span>. Жалпы формула бойынша:</p>
+<p><span class="m">x₁ + x₂ = −b/a = 7/2</span>, <span class="m">x₁ · x₂ = c/a = 3/2</span>.</p>
+<p>Таңдау: <span class="m">3 + 1/2 = 7/2</span> ✓ және <span class="m">3 · 1/2 = 3/2</span> ✓ ⇒ <span class="m">x₁ = 3, x₂ = 1/2</span>.</p>
+<p class="ru">a = 2, b = −7, c = 3. Сумма −b/a = 7/2, произведение c/a = 3/2. Подбор: 3 + 1/2 = 7/2 и 3 · 1/2 = 3/2. Важно: если a ≠ 1, делим b и c на a.</p>
+<p>Тексеру: <span class="m">2·9 − 21 + 3 = 0</span> ✓; <span class="m">2·¼ − 7/2 + 3 = ½ − 3½ + 3 = 0</span> ✓.</p>
+<div class="ans">Жауабы / Ответ: 3; 1/2</div>
+</section>
+
+<section class="card">
+<h2>Есеп 8. 3x² + 8x − 3 = 0</h2>
+<p><span class="m">a = 3, b = 8, c = −3</span>. <span class="m">x₁ + x₂ = −8/3</span>, <span class="m">x₁ · x₂ = −3/3 = −1</span>.</p>
+<p>Көбейтінді −1 ⇒ сандар кері және қарама-қарсы таңбалы: <span class="m">−3 және 1/3</span>. Қосындысы: <span class="m">−3 + 1/3 = −9/3 + 1/3 = −8/3</span> ✓.</p>
+<p class="ru">a = 3, b = 8, c = −3. Сумма −8/3, произведение −1. Произведение −1: числа вида t и −1/t. Подходят −3 и 1/3: их сумма −9/3 + 1/3 = −8/3.</p>
+<p>Тексеру: <span class="m">3·9 − 24 − 3 = 0</span> ✓; <span class="m">3·(1/9) + 8/3 − 3 = 1/3 + 8/3 − 3 = 0</span> ✓.</p>
+<div class="ans">Жауабы / Ответ: −3; 1/3</div>
+</section>
+
+<section class="card">
+<h2>Есеп 9. Түбірлері 4 және −7 болатын квадрат теңдеу құр (кері теорема)</h2>
+<p class="ru">Составь квадратное уравнение с корнями 4 и −7 (обратная теорема).</p>
+<p><span class="m">x₁ + x₂ = 4 + (−7) = −3</span>, сонда <span class="m">−p = −3</span>, яғни <span class="m">p = 3</span>.</p>
+<p><span class="m">x₁ · x₂ = 4 · (−7) = −28</span>, сонда <span class="m">q = −28</span>.</p>
+<p>Теңдеу: <span class="m">x² + px + q = 0</span> ⇒ <span class="m">x² + 3x − 28 = 0</span>.</p>
+<p class="ru">Сумма корней −3, значит p = 3. Произведение −28, значит q = −28. Подставляем в x² + px + q = 0.</p>
+<p>Тексеру: <span class="m">16 + 12 − 28 = 0</span> ✓; <span class="m">49 − 21 − 28 = 0</span> ✓.</p>
+<div class="ans">Жауабы / Ответ: x² + 3x − 28 = 0</div>
+</section>
+
+<section class="card">
+<h2>Есеп 10. x² + px + 12 = 0 теңдеуінің бір түбірі 3. p-ны және екінші түбірді тап</h2>
+<p class="ru">Один корень уравнения x² + px + 12 = 0 равен 3. Найди p и второй корень.</p>
+<p>Виет бойынша <span class="m">x₁ · x₂ = 12</span>. <span class="m">x₁ = 3</span> болғандықтан: <span class="m">3 · x₂ = 12</span> ⇒ <span class="m">x₂ = 4</span>.</p>
+<p>Қосынды: <span class="m">x₁ + x₂ = 3 + 4 = 7 = −p</span> ⇒ <span class="m">p = −7</span>.</p>
+<p>Теңдеу: <span class="m">x² − 7x + 12 = 0</span>.</p>
+<p class="ru">Произведение корней равно 12, значит x₂ = 12 : 3 = 4. Сумма 3 + 4 = 7 = −p, поэтому p = −7. Уравнение: x² − 7x + 12 = 0.</p>
+<p>Тексеру: <span class="m">9 − 21 + 12 = 0</span> ✓; <span class="m">16 − 28 + 12 = 0</span> ✓.</p>
+<div class="ans">Жауабы / Ответ: p = −7; x₂ = 4</div>
+</section>
+
+<section class="card">
+<h2>Қорытынды / Итог</h2>
+<p>Таңбаны қарап сандарды тез табуға болады: көбейтінді оң — таңбалары бірдей (қосындымен бірдей); көбейтінді теріс — таңбалары әртүрлі. Әрқашан тексеріңдер!</p>
+<p class="ru">Знак произведения подсказывает знаки корней: произведение положительное — знаки одинаковые (как у суммы); отрицательное — разные. Всегда делай проверку!</p>
+</section>
+</main>
+</body>
+</html>
